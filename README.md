@@ -106,8 +106,8 @@ quiz-project/
 print("Welcome to the Quiz!")
 score = 0
 
-answer = input("1. What is the capital of India? ")
-if answer.lower() == "delhi":
+answer = input("1. What is the capital of usa? ")
+if answer.lower() == "washington dc":
     score += 1
 
 print(f"Your final score is: {score}")
@@ -115,29 +115,3 @@ print(f"Your final score is: {score}")
 
 ---
 
-📝 Notes
-
-You can add more questions by editing the Python file.
-
-Keep questions simple if you're a beginner.
-
-Customize the quiz theme (Science, Movies, GK, Computers, etc.).
-
-
-
----
-
-🔚 Conclusion
-
-This quiz project is a great starting point for learning Python. You can improve it by adding:
-
-Timer for each question
-
-Leaderboard
-
-GUI using Tkinter
-
-Data storage using files or database
-
-
-Feel free to modify and expand according to your creativity!
